@@ -8,7 +8,6 @@ const Home: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonTitle>
-            E-upsathiti
 
           </IonTitle>
         </IonToolbar>
@@ -20,6 +19,7 @@ const Home: React.FC = () => {
           </IonToolbar>
         </IonHeader>
         <div className="container">
+          dzdssdfg
         </div>
       </IonContent>
     </IonPage>
