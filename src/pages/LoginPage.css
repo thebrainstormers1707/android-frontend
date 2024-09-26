@@ -1,0 +1,89 @@
+/* Background and Layout */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Gill Sans", sans-serif;
+    background: linear-gradient(135deg, #3b82f6, #9333ea); /* Blue to purple gradient */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Responsive width */
+    max-width: 800px; /* Limit the max width */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #3b82f6; /* Blue border */
+    transition: border-color 0.3s ease;
+    font-size: 1rem;
+  }
+  
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #9333ea; /* Change border to purple on focus */
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.2); /* Purple ring */
+  }
+  
+  label {
+    font-weight: bold;
+    color: #3b82f6; /* Blue label color */
+    font-size: 1.1rem;
+  }
+  
+  ion-button {
+    --background: #3b82f6; /* Blue button */
+    --background-activated: #9333ea; /* Change to purple when pressed */
+    --background-focused: #9333ea;
+    --background-hover: #9333ea;
+    --border-radius: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  ion-button.secondary {
+    --background: #facc15; /* Yellow button */
+    --background-hover: #f97316; /* Orange on hover */
+    --background-activated: #f97316;
+  }
+  
+  ion-button:focus {
+    box-shadow: 0 0 0 3px rgba(147, 51, 234, 0.2); /* Purple ring */
+  }
+  
+  .card-footer {
+    margin-top: 2rem;
+  }
+  
+  .space-y-2 label {
+    color: #9333ea; /* Purple for email and password labels */
+  }
+  
+  /* Media Query for Mobile Responsiveness */
+  @media (max-width: 480px) {
+    body {
+      padding: 0 16px; /* Add some horizontal padding */
+    }
+  
+    .card {
+      padding: 1.5rem; /* Reduce padding for smaller screens */
+    }
+  }
+  
