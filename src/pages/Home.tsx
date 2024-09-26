@@ -8,8 +8,10 @@ const Home: React.FC = () => {
       <IonHeader>
         <IonToolbar>
           <IonTitle>
-            E-upsathiti
-
+            
+          </IonTitle>
+          <IonTitle> E-Upastithi
+          
           </IonTitle>
         </IonToolbar>
       </IonHeader>
