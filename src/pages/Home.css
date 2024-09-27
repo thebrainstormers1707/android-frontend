@@ -1,0 +1,127 @@
+/* Home.css */
+
+/* Page Content */
+.page-content {
+    padding: 16px;
+    text-align: center;
+    background: linear-gradient(135deg, #716e6e 100vh);
+    height: 100%;
+  }
+  
+  /* Cards */
+  .location-card,
+  .date-card,
+  .check-card,
+  .working-hours-card {
+    border-radius: 45px;
+    box-shadow: 100%;
+    background-color: #ffffff;
+    margin: 50px 0px 0px 0px;
+  }
+  
+  .location-card {
+    padding: 20px 20px 15px 20px;  
+    margin: 5px 0px 0px 0px; 
+  }
+  
+  .date {
+    background-color: #fdf1f5;
+    ;
+  }
+  
+  .check-card {
+    background-color: #fffdfb;
+    margin: 15px 0px 0px 0px; 
+    padding: 0%  0% 0%  0%;
+  }
+  
+  /* Working Hours Card */
+  .working-hours-card {
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    padding:10%  0% 10%;   
+  }
+  
+  .working-hours-label {
+    font-size: 14px;
+    color: #6b7280;
+    font-weight: normal;
+  }
+  
+  .working-hours-time {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Check In/Out Section */
+  .check-in-out-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  
+  .check-card {
+    flex: 10px;
+  }
+  
+  /* Icons and Labels */
+  ion-icon {
+    font-size: 24px;
+    color: #ec4899;
+  }
+  
+  ion-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  ion-toggle {
+    margin-left: 10px;
+  }
+  
+  ion-button {
+    margin-left: 30px;
+  }
+  
+  /* Avatar and Toolbar */
+  ion-avatar img {
+    width: 55px;
+    height: 68px;
+    border-radius: 0%;
+    padding:10%  0% 10%;   
+  }
+    
+  
+  
+  ion-toolbar {
+    background-color: transparent;
+  }
+  
+  ion-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(147, 83, 147, 0.778);
+  }
+  
+  ion-buttons {
+    margin: 0 10px 0 auto;
+    padding:10%  0% 10%;   
+  }
+    
+  
+  
+  
+  /* Tab Bar */
+  ion-tab-bar {
+    --background: #fff;
+    --color-selected: #ec4899;
+    --color: #333;
+  }
+  
+  ion-tab-button ion-icon {
+    font-size: 24px;
+  }
+  
